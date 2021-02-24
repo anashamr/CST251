@@ -1,4 +1,8 @@
-body {
+html, body {
+  font-family:      Courier, monospace;
+  font-size:        15px;
+  line-height:      2;
+  color:            #000000;
   background-image: url("banner.jpg");
   background-size: cover;
 }
