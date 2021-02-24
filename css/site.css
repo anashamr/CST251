@@ -1,29 +1,39 @@
-
 html, body {
   font-family:      Courier, monospace;
-  font-size:        20px;
+  font-size:        15px;
   line-height:      2;
   color:            #000000;
   background-image: url("banner.jpg");
-  background-repeat: repeat;
-  background-attachment: scroll;
+  background-size: cover;
 }
 
-#headshot {
-  float: right;
+.major-section {
+  margin: 20px;
+  padding: 10px;
+  border: solid 1px #606060;
+  border-radius: 5px;
+  background-color: rgba(202, 212, 236, 0.5);
+  border-radius: 10px;
+}
+
+.minor-section {
+  padding: 1px 20px;
   margin: 10px;
-}
-
-#headshot img {
-  width: 300px;
-}
-
-img {
-  max-width: 100%;
+  background-color: #bf8d7b;
+  border-radius: 10px;
 }
 
 h1, h2, h3 {
   border: 6px dotted black;
-  border-radius: 20px;
+  border-radius: 10px;
+}
 
+img {
+  border: 6px dotted black;
+  border-radius: 10px;
+}
+
+#image {
+  float: right;
+  margin: 10px;
 }
