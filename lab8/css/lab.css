@@ -24,8 +24,10 @@ html, body {
 }
 
 h1, h2, h3 {
+  color: #ad576e;
   border: 6px dotted black;
   border-radius: 10px;
+  text-decoration: underline;
 }
 
 img {
@@ -34,4 +36,17 @@ img {
   margin-right: auto;
   border: 6px dotted black;
   border-radius: 10px;
+}
+
+img:hover {
+    transform: scale(2);
+}
+
+
+p#challenge, #result {
+  color: rgb(202, 212, 236);
+}
+
+p#problems {
+  color: #dabfa6;
 }
