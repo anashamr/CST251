@@ -4,7 +4,7 @@ html, body {
   line-height:      2;
   color:            #000000;
   background-image: url("banner.jpg");
-  background-size: cover; 
+  background-size: cover;
 }
 
 .major-section {
@@ -60,6 +60,7 @@ p {
 
 .heading {
   text-transform: uppercase;
+  font-family: 'Cormorant+Garamond';
 }
 
 span {
