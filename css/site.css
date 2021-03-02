@@ -37,3 +37,18 @@ img {
   float: right;
   margin: 10px;
 }
+
+p {
+  border: solid 2px black;
+  letter-spacing: 1.5px;
+  word-spacing: 3px;
+  line-height: 2;
+  text-indent: 30px;
+}
+
+.heading {
+  text-transform: uppercase;
+  text-align: left;
+  text-decoration: underline;
+  text-shadow: 5px 5px 10px black;
+}
