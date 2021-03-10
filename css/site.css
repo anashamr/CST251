@@ -7,6 +7,11 @@ html, body {
   background-size: cover;
 }
 
+#content {
+  display: inline-block;
+  width: 55%;
+}
+
 .major-section {
   margin: 20px;
   padding: 10px;
@@ -51,4 +56,12 @@ p {
   text-align: left;
   text-decoration: underline;
   text-shadow: 5px 5px 10px black;
+}
+
+aside#sidebar {
+  display: inline-block;
+  width: 30%;
+  min-width: 300px;
+  float: right;
+  border: solid 1px #606060;
 }
