@@ -1,0 +1,125 @@
+html, body {
+  font-family:      Lucida, monospace;
+  font-size:        15px;
+  line-height:      2;
+  color:            #000000;
+  background-image: url("banner.jpg");
+  background-size: cover;
+}
+
+.major-section {
+  margin: 20px;
+  padding: 10px;
+  border: double 8px #f7f4f0;
+  border-radius: 5px;
+  background-color: rgba(255, 216, 193, 0.5);
+  border-radius: 10px;
+}
+
+.minor-section {
+  padding: 1px 30px;
+  margin: 15px;
+  background-color: #f7f4f0;
+  border-radius: 10px;
+}
+
+h1, h2, h3 {
+  color: #ffc09a;
+  border-bottom: 6px dotted black;
+  border-radius: 10px;
+}
+
+img {
+  border: 6px double black;
+  border-radius: 10px;
+}
+
+img:hover {
+    transform: scale(1.5);
+}
+
+#main-image img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+p#challenge, #result {
+  color: #ffc09a;
+}
+
+p#problems, #random-facts {
+  color: #ffc09a;
+}
+
+p#random-facts {
+  font-size: 20px;
+}
+
+p {
+  border: solid 2px black;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  line-height: 1.5;
+  text-indent: 50px;
+}
+
+.heading {
+  text-transform: uppercase;
+  font-family: 'Cormorant+Garamond';
+}
+
+span {
+  text-decoration: underline;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  padding: 1px 30px;
+  margin: 15px;
+  background-color: #f7f4f0;
+  border-radius: 10px;
+  border: double 8px #ffc09a;
+}
+
+#floated {
+  width: 30%;
+  float: right;
+  padding: 1px 30px;
+  margin: 15px;
+  background-color: #f7f4f0;
+  border-radius: 10px;
+}
+
+#center-horz {
+  width: 30%;
+  padding: 1px 30px;
+  margin: 15px;
+  background-color: #f7f4f0;
+  border-radius: 10px;
+}
+
+#center-horizontal {
+  text-align: center;
+}
+
+#center-img img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  height: auto;
+}
+
+#center-both img {
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  height: auto;
+}
