@@ -34,7 +34,7 @@ img {
   border-radius: 10px;
 }
 
-img:hover {
+ img:hover {
     transform: scale(1.5);
 }
 
@@ -122,4 +122,23 @@ nav {
   margin-right: auto;
   width: 150px;
   height: auto;
+}
+
+#bonus {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border: 6px double black;
+  border-radius: 10px;
+}
+#bonus img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  width: auto;
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
 }
