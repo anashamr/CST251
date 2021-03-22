@@ -1,0 +1,62 @@
+html, body {
+  font-family:      Courier, monospace;
+  font-size:        15px;
+  line-height:      2;
+  color:            #000000;
+  background-image: url("banner.jpg");
+  background-size: cover;
+}
+
+.major-section {
+  margin: 20px;
+  padding: 10px;
+  border: double 8px #0e524b;
+  border-radius: 5px;
+  background-color: rgba(237, 228, 218, 0.5);
+  border-radius: 10px;
+}
+
+.minor-section {
+  padding: 1px 30px;
+  margin: 15px;
+  background-color: #0e524b;
+  border-radius: 10px;
+}
+
+h1, h2, h3 {
+  color: #c25b49;
+  border-bottom: 6px dotted black;
+  border-radius: 10px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 6px double black;
+  border-radius: 10px;
+}
+
+img:hover {
+    transform: scale(2);
+}
+
+
+p#challenge, #result {
+  color: #e6b0a0;
+}
+
+p#problems {
+  color: #e1a98a;
+}
+
+p {
+  border: solid 2px black;
+}
+
+iframe#fake {
+    width: 800px;
+    height: 500px;
+    resize: both;
+    overflow: hidden;
+}
