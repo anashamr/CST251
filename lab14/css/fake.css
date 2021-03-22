@@ -1,0 +1,55 @@
+html, body {
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: inherit;
+  padding: 25px;
+}
+
+@font-family {
+  font-family: avicii ;
+  src: url(avicii-font.ttf);
+}
+
+h1 {
+    font-family: "avicii";
+    font-size: 1300%;
+    font-stretch: expanded;
+    padding-top: 10px;
+    padding-bottom: -100px;
+    margin-bottom: 10px;
+}
+
+@font-family {
+  font-family: urania ;
+  src: url(uraniasemiserif.ttf);
+}
+
+p {
+    font-family: "urania";
+    font-size: 20px;
+    color: white;
+    margin-right: 500px;
+    margin-left: 50px;
+    margin-top: 0px;
+    margin-bottom: 60px;
+}
+
+@font-family {
+  font-family: asul ;
+  src: url(asul-regular.ttf);
+}
+
+#top-left {
+  font-family: "asul";
+  font-size: 10px;
+  color: #2e3136;
+  float: left;
+}
+
+#top-right {
+  font-family: "asul";
+  font-size: 10px;
+  color: #2e3136;
+  float: right;
+}
