@@ -26,12 +26,14 @@ html, body {
   margin: 15px;
   background-color: #b68479;
   border-radius: 10px;
+  box-shadow: 5px 5px 10px black;
 }
 
 h1, h2, h3 {
   color: #f1c7be;
   border-bottom: 6px dotted black;
   border-radius: 10px;
+  text-shadow: 10px 10px 10px black;
 }
 
 img {
@@ -40,23 +42,11 @@ img {
   margin-right: auto;
   border: 6px double black;
   border-radius: 10px;
+  box-shadow: 5px 5px 10px black;
 }
 
 img:hover {
     transform: scale(1.5);
-}
-
-
-p#challenge, #result {
-  color: #e9d0d6;
-}
-
-p#problems, #random-facts {
-  color: #e5e6e8;
-}
-
-p#random-facts {
-  font-size: 20px;
 }
 
 p {
@@ -65,6 +55,7 @@ p {
   word-spacing: 3px;
   line-height: 1.5;
   text-indent: 50px;
+  color: #e5e6e8;
 }
 
 .heading {
@@ -86,7 +77,7 @@ aside#sidebar {
 }
 
 nav {
-  position: sticky;
+  position: relative;
   top: 0;
   padding: 1px 30px;
   margin: 15px;
