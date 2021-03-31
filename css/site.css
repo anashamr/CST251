@@ -3,7 +3,7 @@ html, body {
   font-size:        15px;
   line-height:      2;
   color:            #000000;
-  background-image: url("banner.jpg");
+  background-image: url("glitter.gif"), url("banner.jpg");
   background-size: cover;
 }
 
@@ -27,6 +27,14 @@ html, body {
   background-color: #bf8d7b;
   border-radius: 10px;
   box-shadow: 5px 5px 10px black;
+}
+
+div.minor-section {
+  transition: width 2s, height 2s, transform 2s;
+}
+
+.minor-section:hover {
+  background-color: rgba(202, 212, 236);
 }
 
 h1, h2, h3 {

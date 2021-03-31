@@ -3,7 +3,7 @@ html, body {
   font-size:        15px;
   line-height:      2;
   color:            #000000;
-  background-image: url("banner.jpg");
+  background-image: url("dust.gif"), url("banner.jpg");
   background-size: cover;
 }
 
@@ -15,22 +15,30 @@ html, body {
 .major-section {
   margin: 20px;
   padding: 10px;
-  border: double 8px #f1c7be;
+  border: double 8px #0e524b;
   border-radius: 5px;
-  background-color: rgba(204, 183, 178, 0.5);
+  background-color: rgba(237, 228, 218, 0.5);
   border-radius: 10px;
 }
 
 .minor-section {
   padding: 1px 30px;
   margin: 15px;
-  background-color: #b68479;
+  background-color: #0e524b;
   border-radius: 10px;
   box-shadow: 5px 5px 10px black;
 }
 
+div.minor-section {
+  transition: width 2s, height 2s, transform 2s;
+}
+
+.minor-section:hover {
+  background-color: rgba(237, 228, 218);
+}
+
 h1, h2, h3 {
-  color: #f1c7be;
+  color: #c25b49;
   border-bottom: 6px dotted black;
   border-radius: 10px;
   text-shadow: 10px 10px 10px black;
@@ -55,7 +63,7 @@ p {
   word-spacing: 3px;
   line-height: 1.5;
   text-indent: 50px;
-  color: #e5e6e8;
+  color: #e6b0a0;
 }
 
 .heading {
@@ -84,4 +92,17 @@ nav {
   background-color: #b68479;
   border-radius: 10px;
   border: double 8px #f1c7be;
+  height: 120px;
+  width: 320px;
+  animation: mymove 8s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 1000px;}
+}
+
+div#column {
+  columns: 3;
 }

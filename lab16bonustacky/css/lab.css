@@ -2,7 +2,7 @@ html, body {
   font-family:      Lucida, monospace;
   font-size:        15px;
   line-height:      2;
-  background-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
+  background-image: url("image2.gif"), linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
 }
 
 #content {
@@ -41,11 +41,11 @@ img {
   border: outset 8px green;
   border-radius: 10px;
   box-shadow: 5px 5px 10px black;
-  filter: sepia(100%);
+  transition: width 2s, height 2s, transform 2s;
 }
 
  img:hover {
-    transform: scale(1.5);
+    transform: rotate(360deg);
 }
 
 p {
@@ -85,4 +85,21 @@ nav {
   background-color: #f7f4f0;
   border-radius: 10px;
   border: double 8px #ffc09a;
+}
+
+div#column {
+  columns: 3;
+}
+
+#header {
+  height: 150px;
+  width: 320px;
+  position: relative;
+  animation: mymove 1s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 380px;}
 }
