@@ -56,12 +56,14 @@ footer {
 
 #sidebar {
   float: right;
-  width: 30%;
   position: absolute;
   display: inline-block;
+  width: 30%;
+  min-width: 300px;
 }
 
 #main {
   float: left;
   width: 60%;
+  display: inline-block;
 }
