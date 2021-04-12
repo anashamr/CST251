@@ -1,0 +1,9 @@
+.major-section {
+  border: double 8px black;
+  border-radius: 10px;
+}
+
+.minor-section {
+  border: double 8px black;
+  border-radius: 10px;
+}

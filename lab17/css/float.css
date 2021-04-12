@@ -1,0 +1,40 @@
+.major-section {
+  border: double 8px black;
+  border-radius: 10px;
+}
+
+.minor-section {
+  border: double 8px black;
+  border-radius: 10px;
+}
+
+header {
+  display: block;
+  float: left;
+  text-align: center;
+  width: 100%;
+}
+
+nav {
+  display: block;
+  float: left;
+  width: 100%;
+}
+
+main {
+  display: block;
+  float: left;
+  width: 67%;
+}
+
+aside {
+  display: block;
+  float: right;
+  width: 30%;
+}
+
+footer {
+  display: block;
+  float: left;
+  width: 100%;
+}
