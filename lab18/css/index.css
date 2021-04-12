@@ -46,7 +46,7 @@ footer {
   width: 100%;
 }
 
-#sidebar {
+aside#sidebar {
   float: right;
   position: absolute;
   display: inline-block;
@@ -54,7 +54,7 @@ footer {
   min-width: 300px;
 }
 
-#main {
+main#main {
   float: left;
   width: 55%;
   display: inline-block;
